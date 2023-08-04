@@ -77,46 +77,87 @@ COLLATE = utf8mb4_0900_ai_ci;
 START TRANSACTION;
 USE `world_cup`;
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1823, 'Namibia', 'Sri Lanka', 'Namibia', '55 runs', 'Geelong', '2022-10-16');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1825, 'Netherlands', 'U.A.E.', 'Netherlands', '3 wickets', 'Geelong', '2022-10-16');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1826, 'Scotland', 'West Indies', 'Scotland', '42 runs', 'Hobart', '2022-10-17');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1828, 'Ireland', 'Zimbabwe', 'Zimbabwe', '31 runs', 'Hobart', '2022-10-17');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1830, 'Namibia', 'Netherlands', 'Netherlands', '5 wickets', 'Geelong', '2022-10-18');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1832, 'Sri Lanka', 'U.A.E.', 'Sri Lanka', '79 runs', 'Geelong', '2022-10-18');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1833, 'Ireland', 'Scotland', 'Ireland', '6 wickets', 'Hobart', '2022-10-19');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1834, 'West Indies', 'Zimbabwe', 'West Indies', '31 runs', 'Hobart', '2022-10-19');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1835, 'Netherlands', 'Sri Lanka', 'Sri Lanka', '16 runs', 'Geelong', '2022-10-20');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1836, 'Namibia', 'U.A.E.', 'U.A.E.', '7 runs', 'Geelong', '2022-10-20');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1837, 'Ireland', 'West Indies', 'Ireland', '9 wickets', 'Hobart', '2022-10-21');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1838, 'Scotland', 'Zimbabwe', 'Zimbabwe', '5 wickets', 'Hobart', '2022-10-21');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1839, 'Australia', 'New Zealand', 'New Zealand', '89 runs', 'Sydney', '2022-10-22');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1840, 'Afghanistan', 'England', 'England', '5 wickets', 'Perth', '2022-10-22');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1841, 'Ireland', 'Sri Lanka', 'Sri Lanka', '9 wickets', 'Hobart', '2022-10-23');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1842, 'India', 'Pakistan', 'India', '4 wickets', 'Melbourne', '2022-10-23');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1843, 'Bangladesh', 'Netherlands', 'Bangladesh', '9 runs', 'Hobart', '2022-10-24');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1845, 'Australia', 'Sri Lanka', 'Australia', '7 wickets', 'Perth', '2022-10-25');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1846, 'England', 'Ireland', 'Ireland', '5 runs', 'Melbourne', '2022-10-26');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1848, 'Bangladesh', 'South Africa', 'South Africa', '104 runs', 'Sydney', '2022-10-27');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1849, 'India', 'Netherlands', 'India', '56 runs', 'Sydney', '2022-10-27');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1850, 'Pakistan', 'Zimbabwe', 'Zimbabwe', '1 run', 'Perth', '2022-10-27');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1853, 'New Zealand', 'Sri Lanka', 'New Zealand', '65 runs', 'Sydney', '2022-10-29');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1854, 'Bangladesh', 'Zimbabwe', 'Bangladesh', '3 runs', 'Brisbane', '2022-10-30');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1855, 'Netherlands', 'Pakistan', 'Pakistan', '6 wickets', 'Perth', '2022-10-30');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1856, 'India', 'South Africa', 'South Africa', '5 wickets', 'Perth', '2022-10-30');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1857, 'Australia', 'Ireland', 'Australia', '42 runs', 'Brisbane', '2022-10-31');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1858, 'Afghanistan', 'Sri Lanka', 'Sri Lanka', '6 wickets', 'Brisbane', '2022-11-01');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1859, 'England', 'New Zealand', 'England', '20 runs', 'Brisbane', '2022-11-01');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1860, 'Netherlands', 'Zimbabwe', 'Netherlands', '5 wickets', 'Adelaide', '2022-11-02');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1861, 'Bangladesh', 'India', 'India', '5 runs', 'Adelaide', '2022-11-02');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1862, 'Pakistan', 'South Africa', 'Pakistan', '33 runs', 'Sydney', '2022-11-03');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1863, 'Ireland', 'New Zealand', 'New Zealand', '35 runs', 'Adelaide', '2022-11-04');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1864, 'Australia', 'Afghanistan', 'Australia', '4 runs', 'Adelaide', '2022-11-04');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1865, 'England', 'Sri Lanka', 'England', '4 wickets', 'Sydney', '2022-11-05');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1866, 'Netherlands', 'South Africa', 'Netherlands', '13 runs', 'Adelaide', '2022-11-06');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1867, 'Bangladesh', 'Pakistan', 'Pakistan', '5 wickets', 'Adelaide', '2022-11-06');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1868, 'India', 'Zimbabwe', 'India', '71 runs', 'Melbourne', '2022-11-06');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1869, 'New Zealand', 'Pakistan', 'Pakistan', '7 wickets', 'Sydney', '2022-11-09');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1870, 'England', 'India', 'England', '10 wickets', 'Adelaide', '2022-11-10');
+
 INSERT INTO `world_cup`.`match_summary` (`match_id`, `team1`, `team2`, `winner`, `margin`, `ground`, `matchDate`) VALUES (1871, 'England', 'Pakistan', 'England', '5 wickets', 'Melbourne', '2022-11-13');
+
 
 COMMIT;
 
@@ -127,41 +168,77 @@ COMMIT;
 START TRANSACTION;
 USE `world_cup`;
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (1, 'Namibia Vs Sri Lanka', 'Namibia', '1', 'Michael van Lingen', 3, 6, 0, 0, 50, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (2, 'Namibia Vs Sri Lanka', 'Namibia', '2', 'Divan la Cock', 9, 9, 1, 0, 100, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (3, 'Namibia Vs Sri Lanka', 'Namibia', '3', 'Jan Nicol Loftie-Eaton', 20, 12, 1, 2, 166.66, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (4, 'Namibia Vs Sri Lanka', 'Namibia', '4', 'Stephan Baard', 26, 24, 2, 0, 108.33, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (5, 'Namibia Vs Sri Lanka', 'Namibia', '5', 'Gerhard Erasmus(c)', 20, 24, 0, 0, 83.33, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (6, 'Namibia Vs Sri Lanka', 'Namibia', '6', 'Jan Frylinck', 44, 28, 4, 0, 157.14, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (7, 'Namibia Vs Sri Lanka', 'Namibia', '7', 'David Wiese', 0, 1, 0, 0, 0, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (8, 'Namibia Vs Sri Lanka', 'Namibia', '8', 'JJ Smit', 31, 16, 2, 2, 193.75, 'not_out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (9, 'Namibia Vs Sri Lanka', 'Sri Lanka', '1', 'Pathum Nissanka', 9, 10, 1, 0, 90, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (10, 'Namibia Vs Sri Lanka', 'Sri Lanka', '2', 'Kusal Mendis', 6, 6, 0, 0, 100, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (11, 'Namibia Vs Sri Lanka', 'Sri Lanka', '3', 'Dhananjaya de Silva', 12, 11, 1, 0, 109.09, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (12, 'Namibia Vs Sri Lanka', 'Sri Lanka', '4', 'Danushka Gunathilaka', 0, 1, 0, 0, 0, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (13, 'Namibia Vs Sri Lanka', 'Sri Lanka', '5', 'Bhanuka Rajapaksa', 20, 21, 2, 0, 95.23, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (14, 'Namibia Vs Sri Lanka', 'Sri Lanka', '6', 'Dasun Shanaka(c)', 29, 23, 2, 1, 126.08, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (15, 'Namibia Vs Sri Lanka', 'Sri Lanka', '7', 'Wanindu Hasaranga de Silva', 4, 8, 0, 0, 50, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (16, 'Namibia Vs Sri Lanka', 'Sri Lanka', '8', 'Chamika Karunaratne', 5, 8, 0, 0, 62.5, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (18, 'Namibia Vs Sri Lanka', 'Sri Lanka', '10', 'Dushmantha Chameera', 8, 15, 0, 0, 53.33, 'out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (19, 'Namibia Vs Sri Lanka', 'Sri Lanka', '11', 'Maheesh Theekshana', 11, 11, 0, 1, 100, 'not_out', 1823);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (20, 'U.A.E. Vs Netherlands', 'U.A.E.', '1', 'Chirag Suri', 12, 20, 1, 0, 60, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (21, 'U.A.E. Vs Netherlands', 'U.A.E.', '2', 'Muhammad Waseem', 41, 47, 1, 2, 87.23, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (22, 'U.A.E. Vs Netherlands', 'U.A.E.', '3', 'Kashif Daud', 15, 14, 0, 1, 107.14, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (23, 'U.A.E. Vs Netherlands', 'U.A.E.', '4', 'Vriitya Aravind', 18, 21, 0, 0, 85.71, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (24, 'U.A.E. Vs Netherlands', 'U.A.E.', '5', 'Zawar Farid', 2, 4, 0, 0, 50, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (25, 'U.A.E. Vs Netherlands', 'U.A.E.', '6', 'Basil Hameed', 4, 4, 1, 0, 100, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (26, 'U.A.E. Vs Netherlands', 'U.A.E.', '7', 'Chundangapoyil Rizwan(c)', 1, 2, 0, 0, 50, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (27, 'U.A.E. Vs Netherlands', 'U.A.E.', '8', 'Aayan Afzal Khan', 5, 7, 0, 0, 71.42, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (29, 'U.A.E. Vs Netherlands', 'U.A.E.', '10', 'Junaid Siddique', 0, 1, 0, 0, 0, 'not_out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (30, 'U.A.E. Vs Netherlands', 'Netherlands', '1', 'Vikramjit Singh', 10, 7, 2, 0, 142.85, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (31, 'U.A.E. Vs Netherlands', 'Netherlands', '2', 'Max O\'Dowd', 23, 18, 3, 1, 127.77, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (32, 'U.A.E. Vs Netherlands', 'Netherlands', '3', 'Bas de Leede', 14, 18, 1, 0, 77.77, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (33, 'U.A.E. Vs Netherlands', 'Netherlands', '4', 'Colin Ackermann', 17, 19, 1, 0, 89.47, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (34, 'U.A.E. Vs Netherlands', 'Netherlands', '5', 'Tom Cooper', 8, 16, 0, 0, 50, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (35, 'U.A.E. Vs Netherlands', 'Netherlands', '6', 'Scott Edwards(c)', 16, 19, 0, 0, 84.21, 'not_out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (36, 'U.A.E. Vs Netherlands', 'Netherlands', '7', 'Roelof van der Merwe', 0, 2, 0, 0, 0, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (37, 'U.A.E. Vs Netherlands', 'Netherlands', '8', 'Tim Pringle', 15, 16, 0, 0, 93.75, 'out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (38, 'U.A.E. Vs Netherlands', 'Netherlands', '9', 'Logan van Beek', 4, 4, 0, 0, 100, 'not_out', 1825);
+
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (39, 'Scotland Vs West Indies', 'Scotland', '1', 'George Munsey', 66, 53, 9, 0, 124.52, 'not_out', 1826);
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (40, 'Scotland Vs West Indies', 'Scotland', '2', 'Michael Jones', 20, 17, 3, 0, 117.64, 'out', 1826);
 INSERT INTO `world_cup`.`batsman` (`batsman_id`, `match_name`, `teamInnings`, `battingPos`, `batsmanName`, `runs`, `balls`, `fours`, `sixes`, `SR`, `Batsman_status`, `match_id`) VALUES (41, 'Scotland Vs West Indies', 'Scotland', '3', 'Matthew Cross', 3, 5, 0, 0, 60, 'out', 1826);
